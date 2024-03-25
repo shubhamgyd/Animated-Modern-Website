@@ -1,0 +1,7 @@
+smooth scrolling ☑️
+  attach locomotive-scroll.css ✅
+  attach locomotive scroll min js ✅
+  some code from loco github for js ✅
+gsap ☑️
+  attach gsap ✅
+scrolltrigger ☑️
