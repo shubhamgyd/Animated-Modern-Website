@@ -5,7 +5,7 @@ const scroll = new LocomotiveScroll({
 
 function mincircleMouseFollower() {
   $(document.body).on("mousemove", function (dets) {
-    // console.log(dets.clientX, dets.clientY);
+    /// console.log(dets.clientX, dets.clientY);
     $("#mincircle").css({
       transform: `translate(${dets.clientX}px, ${dets.clientY}px)`,
     });
