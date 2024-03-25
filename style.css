@@ -27,6 +27,16 @@ html, body {
   background-color: white;
 }
 
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+  /* background-color: red; */
+}
+.bounding .boundingelem {
+  transform: translateY(100%);
+
+}
+
 #hero {
   position: relative;
   width: 100%;
@@ -69,6 +79,10 @@ html, body {
 }
 
 .block {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* background-color: red; */
   width: fit-content;
 }
 
@@ -81,6 +95,9 @@ html, body {
 #chhotiheadings {
   margin-top: 90px;
   padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 #chhotiheadings h5 {
